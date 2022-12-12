@@ -1,10 +1,12 @@
 import lexer
+import parser
 
 """ 
 Test
 """
 tokens = lexer.lex('<html> lol </html>')
-print(tokens)
+dom = parse(tokens)
+print(dom)
 """ 
 Test
 """
